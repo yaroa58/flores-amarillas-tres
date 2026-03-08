@@ -34,12 +34,12 @@ body {
   /* Estilos específicos para dispositivos con un ancho máximo de 600px */
   #lyrics {
       font-size: 14px; /* Reduce el tamaño del texto para dispositivos más pequeños */
-      margin-bottom: 530px;
+      margin-bottom: 130px;
       letter-spacing: 3px;
   }
 
 }
-.titulo {
+.titulo  {
   margin-bottom: 180px;
   font-family: "Arial Narrow", Arial, sans-serif;
   color: yellow;
@@ -51,6 +51,14 @@ body {
   text-align: center;
   top: 1.5em;
 }
+
+.subtitulo{
+  margin-bottom: 90px;
+  font-family: "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+  position: absolute;
+}
+
 @keyframes fadeIn {
   from {
     opacity: 0;
