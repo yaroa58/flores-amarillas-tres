@@ -49,6 +49,7 @@ body {
   opacity: 0;
   animation: fadeIn 3s ease-in-out forwards;
   text-align: center;
+  top: 1.5em;
 }
 @keyframes fadeIn {
   from {
@@ -1646,6 +1647,7 @@ h1 {
   /* Estilos para pantallas medianas */
   h1 {
       font-size: 1.8em;
+     
   }
 }
 
